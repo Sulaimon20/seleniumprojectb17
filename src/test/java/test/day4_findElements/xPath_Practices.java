@@ -3,13 +3,13 @@ package test.day4_findElements;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import test.day3_cssSelector_xpath.WedDriverFactory;
+import test.day3_cssSelector_xpath.WebDriverFactory;
 
 public class xPath_Practices {
     public static void main(String[] args) {
 //TC #3: PracticeCybertek.com_AddRemoveElements WebElement verification
 // 1. Open Chrome browser
-        WebDriver driver= WedDriverFactory.getDriver("chrome");
+        WebDriver driver= WebDriverFactory.getDriver("chrome");
 // 2. Go to http://practice.cybertekschool.com/add_remove_elements
          driver.get("http://practice.cybertekschool.com/add_remove_elements/");
         driver.manage().window().maximize();

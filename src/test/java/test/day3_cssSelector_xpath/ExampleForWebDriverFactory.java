@@ -9,7 +9,7 @@ public class ExampleForWebDriverFactory {
         //driver1.get("https://www.google.com");
 
 
-        WebDriver driver=WedDriverFactory.getDriver("chrome");
+        WebDriver driver=WebDriverFactory.getDriver("chrome");
         driver.get("https://www.google.com");
 
 

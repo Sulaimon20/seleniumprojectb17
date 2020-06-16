@@ -3,14 +3,14 @@ package test.day4_findElements;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import test.day3_cssSelector_xpath.WedDriverFactory;
+import test.day3_cssSelector_xpath.WebDriverFactory;
 
 import java.util.concurrent.TimeUnit;
 
 public class P04_Cybertek_Checkboxes {
     public static void main(String[] args) {
         //Practice: Cybertek   Checkboxes
-    WebDriver driver= WedDriverFactory.getDriver("chrome");
+    WebDriver driver= WebDriverFactory.getDriver("chrome");
     driver.manage().window().maximize();
     driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 // 1.Go    to http://practice.cybertekschool.com/checkboxes

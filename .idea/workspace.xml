@@ -2,66 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d542e397-f2a0-4b71-8707-5efefe2b5a9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumprojectb17.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/Day0_Self_Practice/AmazonFinding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/Day0_Self_Practice/Bonza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/Day0_Self_Practice/ChooseButton/chooseCountry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/Day0_Self_Practice/CybertekReservationRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/Day0_Self_Practice/OperaTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/Day0_Self_Practice/Radio_CheckedBox/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/Day0_Self_Practice/findElement/findElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day1_seleinum_intro/GoogleTitleVerification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day1_seleinum_intro/SeleniumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day1_seleinum_intro/edgeTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day1_seleinum_intro/fireFoxTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day1_seleinum_intro/operaTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day2_findElement_getText_getAttributes/P1_EtsyTitleVerification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day2_findElement_getText_getAttributes/P3_LinkTextLocator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day2_findElement_getText_getAttributes/P4_GetText_VS_GetAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day2_findElement_getText_getAttributes/googleSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day2_findElement_getText_getAttributes/loginAuthentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day2_findElement_getText_getAttributes/test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day3_cssSelector_xpath/AbsoluteXpathPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day3_cssSelector_xpath/ExampleForWebDriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day3_cssSelector_xpath/P3_CybertekURLVerifacation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day3_cssSelector_xpath/P4_ZeroBankURLVerification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day3_cssSelector_xpath/WedDriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day3_cssSelector_xpath/cssSelectorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day4_findElements/ForgotPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day4_findElements/P02_Apple_FindElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day4_findElements/P03_Appla_FindElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day4_findElements/P04_Cybertek_Checkboxes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day4_findElements/P05_SeleniumEasy_Checkbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day4_findElements/PO1_MerriamWebster_FindElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day4_findElements/xPath_Practices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/seleniumprojectb17.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test/Day0_Self_Practice/AmazonFinding.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test/Day0_Self_Practice/CybertekReservationRoom.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test/Day0_Self_Practice/OperaTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test/day1_seleinum_intro/GoogleTitleVerification.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test/day1_seleinum_intro/SeleniumTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test/day1_seleinum_intro/edgeTest2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test/day1_seleinum_intro/fireFoxTest2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test/day1_seleinum_intro/operaTest2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test/day2_findElement_getText_getAttributes/P1_EtsyTitleVerification.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test/day2_findElement_getText_getAttributes/P3_LinkTextLocator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test/day2_findElement_getText_getAttributes/P4_GetText_VS_GetAttribute.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test/day2_findElement_getText_getAttributes/googleSearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test/day2_findElement_getText_getAttributes/loginAuthentication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test/day2_findElement_getText_getAttributes/test1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test/day3_cssSelector_xpath/AbsoluteXpathPractice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test/day3_cssSelector_xpath/ExampleForWebDriverFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test/day3_cssSelector_xpath/P3_CybertekURLVerifacation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test/day3_cssSelector_xpath/P4_ZeroBankURLVerification.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test/day3_cssSelector_xpath/WedDriverFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test/day3_cssSelector_xpath/cssSelectorExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/day0_self_practice/Youtube.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/day5_testNg_intro/FirstTestNGClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/Day0_Self_Practice/AmazonFinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day0_self_practice/AmazonFinding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/Day0_Self_Practice/Bonza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day0_self_practice/Bonza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/Day0_Self_Practice/ChooseButton/chooseCountry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day0_self_practice/ChooseButton/chooseCountry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/Day0_Self_Practice/CybertekReservationRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day0_self_practice/CybertekReservationRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/Day0_Self_Practice/OperaTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day0_self_practice/OperaTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/Day0_Self_Practice/Radio_CheckedBox/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day0_self_practice/Radio_CheckedBox/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/Day0_Self_Practice/findElement/findElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day0_self_practice/findElement/findElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day3_cssSelector_xpath/AbsoluteXpathPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day3_cssSelector_xpath/AbsoluteXpathPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day3_cssSelector_xpath/ExampleForWebDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day3_cssSelector_xpath/ExampleForWebDriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day3_cssSelector_xpath/WedDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day3_cssSelector_xpath/WebDriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day3_cssSelector_xpath/cssSelectorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day3_cssSelector_xpath/cssSelectorExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day4_findElements/ForgotPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day4_findElements/ForgotPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day4_findElements/P02_Apple_FindElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day4_findElements/P02_Apple_FindElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day4_findElements/P03_Appla_FindElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day4_findElements/P03_Apple_FindElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day4_findElements/P04_Cybertek_Checkboxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day4_findElements/P04_Cybertek_Checkboxes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day4_findElements/P05_SeleniumEasy_Checkbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day4_findElements/P05_SeleniumEasy_Checkbox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day4_findElements/PO1_MerriamWebster_FindElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day4_findElements/PO1_MerriamWebster_FindElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day4_findElements/xPath_Practices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day4_findElements/xPath_Practices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/day3_cssSelector_xpath/AbsoluteXpathPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/day3_cssSelector_xpath/AbsoluteXpathPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/day3_cssSelector_xpath/ExampleForWebDriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/day3_cssSelector_xpath/ExampleForWebDriverFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/day3_cssSelector_xpath/WedDriverFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/day3_cssSelector_xpath/cssSelectorExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/day3_cssSelector_xpath/cssSelectorExample.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,35 +74,9 @@
       <recent name="test.day1_seleinum_intro" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.P03_Appla_FindElements">
-    <configuration name="Bonza" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Day0_Self_Practice.Bonza" />
-      <module name="seleniumprojectb17" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.Day0_Self_Practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CybertekReservationRoom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Day0_Self_Practice.CybertekReservationRoom" />
-      <module name="seleniumprojectb17" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.Day0_Self_Practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P02_Apple_FindElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.day4_findElements.P02_Apple_FindElements" />
+  <component name="RunManager" selected="TestNG.FirstTestNGClass">
+    <configuration name="P04_Cybertek_Checkboxes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.day4_findElements.P04_Cybertek_Checkboxes" />
       <module name="seleniumprojectb17" />
       <extension name="coverage">
         <pattern>
@@ -148,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P03_Appla_FindElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.day4_findElements.P03_Appla_FindElements" />
+    <configuration name="P05_SeleniumEasy_Checkbox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.day4_findElements.P05_SeleniumEasy_Checkbox" />
       <module name="seleniumprojectb17" />
       <extension name="coverage">
         <pattern>
@@ -162,11 +102,11 @@
       </method>
     </configuration>
     <configuration name="chooseCountry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Day0_Self_Practice.ChooseButton.chooseCountry" />
+      <option name="MAIN_CLASS_NAME" value="test.day0_self_practice.ChooseButton.chooseCountry" />
       <module name="seleniumprojectb17" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.Day0_Self_Practice.ChooseButton.*" />
+          <option name="PATTERN" value="test.day0_self_practice.ChooseButton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,13 +114,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FirstTestNGClass" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumprojectb17" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.day5_testNg_intro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.day5_testNg_intro" />
+      <option name="MAIN_CLASS_NAME" value="test.day5_testNg_intro.FirstTestNGClass" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTestNGClass.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumprojectb17" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.day5_testNg_intro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.day5_testNg_intro" />
+      <option name="MAIN_CLASS_NAME" value="test.day5_testNg_intro.FirstTestNGClass" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.P03_Appla_FindElements" />
-        <item itemvalue="Application.P02_Apple_FindElements" />
-        <item itemvalue="Application.Bonza" />
-        <item itemvalue="Application.CybertekReservationRoom" />
+        <item itemvalue="TestNG.FirstTestNGClass" />
+        <item itemvalue="TestNG.FirstTestNGClass.test1" />
         <item itemvalue="Application.chooseCountry" />
+        <item itemvalue="Application.P05_SeleniumEasy_Checkbox" />
+        <item itemvalue="Application.P04_Cybertek_Checkboxes" />
       </list>
     </recent_temporary>
   </component>
@@ -210,52 +185,52 @@
       <screen x="0" y="0" width="1097" height="617" />
     </state>
     <state x="329" y="67" key="FileChooserDialogImpl/0.0.1097.617@0.0.1097.617" timestamp="1591061463568" />
-    <state width="1054" height="224" key="GridCell.Tab.0.bottom" timestamp="1592153268673">
+    <state width="1054" height="190" key="GridCell.Tab.0.bottom" timestamp="1592339829214">
       <screen x="0" y="0" width="1097" height="617" />
     </state>
-    <state width="1054" height="224" key="GridCell.Tab.0.bottom/0.0.1097.617/1920.0.1920.1080@0.0.1097.617" timestamp="1592153268673" />
-    <state width="1877" height="268" key="GridCell.Tab.0.bottom/0.0.1097.617/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592090548173" />
+    <state width="1054" height="190" key="GridCell.Tab.0.bottom/0.0.1097.617/1920.0.1920.1080@0.0.1097.617" timestamp="1592339829214" />
+    <state width="1877" height="361" key="GridCell.Tab.0.bottom/0.0.1097.617/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592172762595" />
     <state width="1054" height="224" key="GridCell.Tab.0.bottom/0.0.1097.617@0.0.1097.617" timestamp="1592148446695" />
-    <state width="1054" height="224" key="GridCell.Tab.0.center" timestamp="1592153268673">
+    <state width="1054" height="190" key="GridCell.Tab.0.center" timestamp="1592339829213">
       <screen x="0" y="0" width="1097" height="617" />
     </state>
-    <state width="1054" height="224" key="GridCell.Tab.0.center/0.0.1097.617/1920.0.1920.1080@0.0.1097.617" timestamp="1592153268673" />
-    <state width="1877" height="268" key="GridCell.Tab.0.center/0.0.1097.617/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592090548173" />
+    <state width="1054" height="190" key="GridCell.Tab.0.center/0.0.1097.617/1920.0.1920.1080@0.0.1097.617" timestamp="1592339829213" />
+    <state width="1877" height="361" key="GridCell.Tab.0.center/0.0.1097.617/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592172762595" />
     <state width="1054" height="224" key="GridCell.Tab.0.center/0.0.1097.617@0.0.1097.617" timestamp="1592148446695" />
-    <state width="1054" height="224" key="GridCell.Tab.0.left" timestamp="1592153268673">
+    <state width="1054" height="190" key="GridCell.Tab.0.left" timestamp="1592339829212">
       <screen x="0" y="0" width="1097" height="617" />
     </state>
-    <state width="1054" height="224" key="GridCell.Tab.0.left/0.0.1097.617/1920.0.1920.1080@0.0.1097.617" timestamp="1592153268673" />
-    <state width="1877" height="268" key="GridCell.Tab.0.left/0.0.1097.617/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592090548173" />
+    <state width="1054" height="190" key="GridCell.Tab.0.left/0.0.1097.617/1920.0.1920.1080@0.0.1097.617" timestamp="1592339829212" />
+    <state width="1877" height="361" key="GridCell.Tab.0.left/0.0.1097.617/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592172762594" />
     <state width="1054" height="224" key="GridCell.Tab.0.left/0.0.1097.617@0.0.1097.617" timestamp="1592148446695" />
-    <state width="1054" height="224" key="GridCell.Tab.0.right" timestamp="1592153268673">
+    <state width="1054" height="190" key="GridCell.Tab.0.right" timestamp="1592339829213">
       <screen x="0" y="0" width="1097" height="617" />
     </state>
-    <state width="1054" height="224" key="GridCell.Tab.0.right/0.0.1097.617/1920.0.1920.1080@0.0.1097.617" timestamp="1592153268673" />
-    <state width="1877" height="268" key="GridCell.Tab.0.right/0.0.1097.617/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592090548173" />
+    <state width="1054" height="190" key="GridCell.Tab.0.right/0.0.1097.617/1920.0.1920.1080@0.0.1097.617" timestamp="1592339829213" />
+    <state width="1877" height="361" key="GridCell.Tab.0.right/0.0.1097.617/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592172762595" />
     <state width="1054" height="224" key="GridCell.Tab.0.right/0.0.1097.617@0.0.1097.617" timestamp="1592148446695" />
-    <state width="1054" height="178" key="GridCell.Tab.1.bottom" timestamp="1592094953716">
+    <state width="1054" height="178" key="GridCell.Tab.1.bottom" timestamp="1592155196907">
       <screen x="0" y="0" width="1097" height="617" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.1.bottom/0.0.1097.617/1920.0.1920.1080@0.0.1097.617" timestamp="1591522807687" />
+    <state width="1054" height="178" key="GridCell.Tab.1.bottom/0.0.1097.617/1920.0.1920.1080@0.0.1097.617" timestamp="1592155196907" />
     <state width="1877" height="363" key="GridCell.Tab.1.bottom/0.0.1097.617/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592089831819" />
     <state width="1054" height="178" key="GridCell.Tab.1.bottom/0.0.1097.617@0.0.1097.617" timestamp="1592094953716" />
-    <state width="1054" height="178" key="GridCell.Tab.1.center" timestamp="1592094953716">
+    <state width="1054" height="178" key="GridCell.Tab.1.center" timestamp="1592155196907">
       <screen x="0" y="0" width="1097" height="617" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.1.center/0.0.1097.617/1920.0.1920.1080@0.0.1097.617" timestamp="1591522807686" />
+    <state width="1054" height="178" key="GridCell.Tab.1.center/0.0.1097.617/1920.0.1920.1080@0.0.1097.617" timestamp="1592155196907" />
     <state width="1877" height="363" key="GridCell.Tab.1.center/0.0.1097.617/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592089831818" />
     <state width="1054" height="178" key="GridCell.Tab.1.center/0.0.1097.617@0.0.1097.617" timestamp="1592094953716" />
-    <state width="1054" height="178" key="GridCell.Tab.1.left" timestamp="1592094953715">
+    <state width="1054" height="178" key="GridCell.Tab.1.left" timestamp="1592155196907">
       <screen x="0" y="0" width="1097" height="617" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.1.left/0.0.1097.617/1920.0.1920.1080@0.0.1097.617" timestamp="1591522807686" />
+    <state width="1054" height="178" key="GridCell.Tab.1.left/0.0.1097.617/1920.0.1920.1080@0.0.1097.617" timestamp="1592155196907" />
     <state width="1877" height="363" key="GridCell.Tab.1.left/0.0.1097.617/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592089831818" />
     <state width="1054" height="178" key="GridCell.Tab.1.left/0.0.1097.617@0.0.1097.617" timestamp="1592094953715" />
-    <state width="1054" height="178" key="GridCell.Tab.1.right" timestamp="1592094953716">
+    <state width="1054" height="178" key="GridCell.Tab.1.right" timestamp="1592155196907">
       <screen x="0" y="0" width="1097" height="617" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.1.right/0.0.1097.617/1920.0.1920.1080@0.0.1097.617" timestamp="1591522807686" />
+    <state width="1054" height="178" key="GridCell.Tab.1.right/0.0.1097.617/1920.0.1920.1080@0.0.1097.617" timestamp="1592155196907" />
     <state width="1877" height="363" key="GridCell.Tab.1.right/0.0.1097.617/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592089831819" />
     <state width="1054" height="178" key="GridCell.Tab.1.right/0.0.1097.617@0.0.1097.617" timestamp="1592094953716" />
     <state x="45" y="0" key="SettingsEditor" timestamp="1591368685811">
@@ -263,10 +238,10 @@
     </state>
     <state x="45" y="0" key="SettingsEditor/0.0.1097.617/1920.0.1920.1080@0.0.1097.617" timestamp="1591368685811" />
     <state x="45" y="0" key="SettingsEditor/0.0.1097.617@0.0.1097.617" timestamp="1591061129191" />
-    <state x="228" y="137" key="com.intellij.ide.util.TipDialog" timestamp="1591977260403">
+    <state x="228" y="137" key="com.intellij.ide.util.TipDialog" timestamp="1592157870793">
       <screen x="0" y="0" width="1097" height="617" />
     </state>
-    <state x="228" y="137" key="com.intellij.ide.util.TipDialog/0.0.1097.617/1920.0.1920.1080@0.0.1097.617" timestamp="1591977260403" />
+    <state x="228" y="137" key="com.intellij.ide.util.TipDialog/0.0.1097.617/1920.0.1920.1080@0.0.1097.617" timestamp="1592157870793" />
     <state x="2319" y="240" key="com.intellij.ide.util.TipDialog/0.0.1097.617/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591806841084" />
     <state x="228" y="137" key="com.intellij.ide.util.TipDialog/0.0.1097.617@0.0.1097.617" timestamp="1591912775707" />
     <state x="90" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592146894104">
@@ -288,5 +263,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/seleniumprojectb17$FirstTestNGClass.ic" NAME="FirstTestNGClass Coverage Results" MODIFIED="1592339791298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.day5_testNg_intro.*</FILTER>
+    </SUITE>
   </component>
 </project>

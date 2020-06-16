@@ -3,7 +3,7 @@ package test.day4_findElements;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import test.day3_cssSelector_xpath.WedDriverFactory;
+import test.day3_cssSelector_xpath.WebDriverFactory;
 import java.util.concurrent.TimeUnit;
 
 public class P05_SeleniumEasy_Checkbox {
@@ -11,7 +11,7 @@ public class P05_SeleniumEasy_Checkbox {
     public static void main(String[] args) throws InterruptedException{
         //TC #2: SeleniumEasy Checkbox Verification – Section 1
         //1. Open Chrome browser
-        WebDriver driver = WedDriverFactory.getDriver("chrome");
+        WebDriver driver = WebDriverFactory.getDriver("chrome");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         //2. Go to https://www.seleniumeasy.com/test/basic-checkbox-demo.html

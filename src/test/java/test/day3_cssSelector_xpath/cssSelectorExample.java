@@ -9,7 +9,7 @@ public class cssSelectorExample {
     public static void main(String[] args) throws InterruptedException {
     //Search Amazon
     //1.Open browser
-    WebDriver driver=WedDriverFactory.getDriver("chrome");
+    WebDriver driver=WebDriverFactory.getDriver("chrome");
     //2. Go to https://amazon.com
     driver.get("https://www.amazon.com");
     //3. Enter any search term (use cssSelector to locate search box)

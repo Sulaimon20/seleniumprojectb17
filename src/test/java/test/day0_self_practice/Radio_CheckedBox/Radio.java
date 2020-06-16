@@ -1,14 +1,14 @@
-package test.Day0_Self_Practice.Radio_CheckedBox;
+package test.day0_self_practice.Radio_CheckedBox;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import test.day3_cssSelector_xpath.WedDriverFactory;
+import test.day3_cssSelector_xpath.WebDriverFactory;
 
 import java.util.concurrent.TimeUnit;
 
 public class Radio {
     public static void main(String[] args) {
-        WebDriver driver= WedDriverFactory.getDriver("chrome");
+        WebDriver driver= WebDriverFactory.getDriver("chrome");
         driver.get("http://practice.cybertekschool.com/radio_buttons");
         driver.manage().window().maximize();
         String [] colors={"black", "yellow", "red", "blue"};

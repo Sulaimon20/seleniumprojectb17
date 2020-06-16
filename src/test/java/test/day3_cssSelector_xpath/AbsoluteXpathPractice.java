@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 
 public class AbsoluteXpathPractice {
     public static void main(String[] args) {
-        WebDriver driver= WedDriverFactory.getDriver("chrome");
+        WebDriver driver= WebDriverFactory.getDriver("chrome");
         driver.get("http://practice.cybertekschool.com/multiple_buttons");
         WebElement homelink=driver.findElement(By.xpath("/html/body/nav/ul/li/a"));
 if (homelink.isDisplayed()){

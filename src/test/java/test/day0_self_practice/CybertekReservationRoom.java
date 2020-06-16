@@ -1,12 +1,10 @@
-package test.Day0_Self_Practice;
+package test.day0_self_practice;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-import java.security.Key;
 
 public class CybertekReservationRoom {
     public static void main(String[] args) throws InterruptedException {
