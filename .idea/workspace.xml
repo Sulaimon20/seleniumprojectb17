@@ -18,6 +18,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -171,10 +172,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2637" y="429" width="485" height="226" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1097.617/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591126585769" />
-    <state x="128" y="0" key="CommitChangelistDialog2" timestamp="1592731287458">
+    <state x="257" y="0" key="CommitChangelistDialog2" timestamp="1592731320774">
       <screen x="0" y="0" width="1097" height="617" />
     </state>
-    <state x="128" y="0" key="CommitChangelistDialog2/0.0.1097.617@0.0.1097.617" timestamp="1592731287458" />
+    <state x="257" y="0" key="CommitChangelistDialog2/0.0.1097.617@0.0.1097.617" timestamp="1592731320773" />
     <state x="329" y="67" key="FileChooserDialogImpl" timestamp="1591061463568">
       <screen x="0" y="0" width="1097" height="617" />
     </state>
@@ -242,6 +243,10 @@
       <screen x="0" y="0" width="1097" height="617" />
     </state>
     <state x="90" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1097.617@0.0.1097.617" timestamp="1592146894104" />
+    <state x="330" y="227" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592731375492">
+      <screen x="0" y="0" width="1097" height="617" />
+    </state>
+    <state x="330" y="227" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1097.617@0.0.1097.617" timestamp="1592731375492" />
     <state x="206" y="135" key="run.anything.popup" timestamp="1592577809799">
       <screen x="0" y="0" width="1097" height="617" />
     </state>
