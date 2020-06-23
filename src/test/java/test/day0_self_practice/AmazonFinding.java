@@ -15,7 +15,5 @@ public class AmazonFinding {
         driver.navigate().refresh();
 
 
-
-
     }
 }

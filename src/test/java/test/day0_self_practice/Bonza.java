@@ -9,11 +9,12 @@ public class Bonza {
     public static void main(String[] args) throws InterruptedException {
    WebDriver driver = WebDriverFactory.getDriver("chrome");
 
-        for (int i = 0; i <=50 ; i++) {
+        for (int i = 0; i <=5 ; i++) {
             driver.get("https://www.google.com");
             driver.manage().window().maximize();
             driver.findElement(By.name("q")).sendKeys(" bonza movers" + Keys.ENTER);
             driver.navigate().back();
+            driver.get("https://www.bonzamovers.com");
         }
        /*
         driver.findElement(By.xpath("//*[@id=\"rso\"]/div[1]/div/div[1]/a/h3")).click();
