@@ -1,14 +1,12 @@
 package test.day0_self_practice;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import test.day3_cssSelector_xpath.WebDriverFactory;
+import test.utilities.WebDriverFactory;
 
 public class CybertekReservationRoom {
     WebDriver driver;
@@ -42,8 +40,11 @@ public class CybertekReservationRoom {
 
     }
     @Test
-    public void makingAppoint(){
+    public void clickingHunt(){
         driver.findElement(By.xpath("//a[@class='navbar-item'][text()='hunt']")).click();
+    }
+    public void verifyingHintPage(){
+        Assert.assertEquals(driver.getTitle(),"");
     }
 
     /*

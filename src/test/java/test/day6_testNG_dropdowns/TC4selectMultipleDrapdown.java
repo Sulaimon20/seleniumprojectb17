@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.*;
-import test.day3_cssSelector_xpath.WebDriverFactory;
+import test.utilities.WebDriverFactory;
 
 import java.util.List;
 

@@ -3,7 +3,7 @@ package test.day0_self_practice;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import test.day3_cssSelector_xpath.WebDriverFactory;
+import test.utilities.WebDriverFactory;
 
 public class Bonza {
     public static void main(String[] args) throws InterruptedException {

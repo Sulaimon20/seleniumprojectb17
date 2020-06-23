@@ -2,7 +2,7 @@ package test.day0_self_practice.Radio_CheckedBox;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import test.day3_cssSelector_xpath.WebDriverFactory;
+import test.utilities.WebDriverFactory;
 
 import java.util.concurrent.TimeUnit;
 

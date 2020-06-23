@@ -2,7 +2,7 @@ package test.day4_findElements;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import test.day3_cssSelector_xpath.WebDriverFactory;
+import test.utilities.WebDriverFactory;
 import java.util.List;
 
 public class P02_Apple_FindElements {

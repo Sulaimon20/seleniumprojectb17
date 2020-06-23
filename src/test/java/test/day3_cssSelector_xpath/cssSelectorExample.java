@@ -4,12 +4,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import test.utilities.WebDriverFactory;
 
 public class cssSelectorExample {
     public static void main(String[] args) throws InterruptedException {
     //Search Amazon
     //1.Open browser
-    WebDriver driver=WebDriverFactory.getDriver("chrome");
+    WebDriver driver= WebDriverFactory.getDriver("chrome");
     //2. Go to https://amazon.com
     driver.get("https://www.amazon.com");
     //3. Enter any search term (use cssSelector to locate search box)
