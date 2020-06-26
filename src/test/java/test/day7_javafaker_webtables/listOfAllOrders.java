@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 import test.utilities.SmartBearUtilities;
 import test.utilities.WebDriverFactory;
@@ -16,6 +17,7 @@ public class listOfAllOrders {
     public void setUp(){
         driver= WebDriverFactory.getDriver("chrome");
         driver.get("http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx");
+        driver.manage().window().maximize();
 
     }
     //      //td[.='Steve Johns']//../td[5]
@@ -23,7 +25,7 @@ public class listOfAllOrders {
     //      //table[@class='SampleTable']//tr[6]/td[7]
     //      //table[@class='SampleTable']//tr[9]/td[2]
 
-
+    @Ignore
     @Test
     public void table(){
         SmartBearUtilities.login(driver);
@@ -42,6 +44,17 @@ public class listOfAllOrders {
 
     }
 
+    @Test
+    public void checkAllList() throws InterruptedException {
+        SmartBearUtilities.login(driver);
+        driver.findElement(By.xpath("//*[@id='ctl00_menu']/li[1]/a")).click();
+        driver.findElement(By.xpath("//a[@id='ctl00_MainContent_btnCheckAll']")).click();
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("//a[@id='ctl00_MainContent_btnUncheckAll']")).click();
+
+
+
+    }
 
 
 

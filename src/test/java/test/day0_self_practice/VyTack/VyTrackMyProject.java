@@ -21,7 +21,7 @@ public class VyTrackMyProject {
     @BeforeMethod
     public void setup() {
         driver = WebDriverFactory.getDriver("chrome");
-        driver.navigate().to("https://qa2.vytrack.com/user/login");
+        driver.get("https://qa2.vytrack.com/user/login");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
     }
@@ -30,18 +30,24 @@ public class VyTrackMyProject {
     public void tearDown() {
       //  driver.close();
     }
+
     @Test
-    public void loginValid() throws InterruptedException {
+    public void logIn() {
         //Log IN to system
+
         driver.findElement(By.xpath("//input[@type='text']")).sendKeys("user154" + Keys.ENTER);
         driver.findElement(By.xpath("//input[@type='password']")).sendKeys("UserUser123" + Keys.ENTER);
+    }
+    @Test
+    public void VehicleOdometerButton() throws InterruptedException {
         // TC #1 Verify that truck driver should be able to see all the Vehicle Odometer information
 
         // 1. Click the Fleet button
-        driver.findElement(By.xpath("//span[@class='title title-level-1'][contains(text(),'Fleet')]")).click();
+    driver.findElement(By.xpath("//span[@class='title title-level-1'][contains(text(),'Fleet')]")).click();
+    Thread.sleep(1500);
 
         // 2. Click Vehicle Odometer button
-         driver.findElement(By.xpath("//span[contains(text(),'Vehicle Odometer')]")).click();
+    driver.findElement(By.xpath("//span[contains(text(),'Vehicle Odometer')]")).click();
 
         // 3. Verify that driver in the Vehicle Odometer page
         Thread.sleep(1500);
