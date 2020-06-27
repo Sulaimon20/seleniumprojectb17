@@ -34,6 +34,7 @@ public class P03_Apple_FindElements {
                 //6. Print out how many link is missing text TOTAL
                 //7. Print out how many link has text TOTAL
                 //8. Print out how many total link TOTAL
+
         for (WebElement link : listOfLinks) {
             String textOfLink = link.getText();
             if (!textOfLink.isEmpty()) {
