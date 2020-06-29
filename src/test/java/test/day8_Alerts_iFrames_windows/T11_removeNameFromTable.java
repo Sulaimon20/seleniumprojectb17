@@ -13,7 +13,7 @@ import test.utilities.WebDriverFactory;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class removeNameFromTable {
+public class T11_removeNameFromTable {
     WebDriver driver;
 
     @BeforeMethod
@@ -37,6 +37,8 @@ public class removeNameFromTable {
         SmartBearUtilities.removeName(driver,name);
         // 4.Assert that your method removed the given name
         List<WebElement> names =driver.findElements(By.xpath("//table[@class='SampleTable']//td[2]"));
+
+
         for (WebElement each : names) {
             if (!each.getText().contains(name)) {
                 Assert.assertTrue(true);

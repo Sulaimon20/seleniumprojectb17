@@ -47,6 +47,7 @@ public class P03_Apple_FindElements {
         driver.navigate().back();
         appleHeader = driver.findElements(By.xpath("//ul[@class='ac-gn-list']/li/a"));
     }
+
             System.out.println("Number of EmptyLinks: \t" + emptyLinkCounter);
             System.out.println("Number of Links with text: \t" + linksWithText);
    }

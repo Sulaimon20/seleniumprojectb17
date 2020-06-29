@@ -76,24 +76,26 @@ public class SmartBearUtilities {
 
     public static void removeName(WebDriver driver, String name) throws InterruptedException {
 
-        String xpath="//td[.='"+name+"']/..//td";
-        //td[.='Paul Brown']/..//td
-        driver.findElement(By.xpath(xpath)).click();
-        driver.findElement(By.xpath("//input[@name='ctl00$MainContent$btnDelete']")).click();
 
 
 
 
-        /*   METHOD 2  ==> long way to remove
+       // METHOD 2  ==> long way to remove
           List<WebElement> namesList = driver.findElements(By.xpath("//table[@class='SampleTable']//td[2]"));
         for (int i = 0; i < namesList.size(); i++) {
             if (namesList.get(i).getText().equals(name)) {
                 List<WebElement> element = driver.findElements(By.xpath("//table[@class='SampleTable']//td[1]"));
                 element.get(i).click();
+                driver.findElement(By.xpath("//input[@id='ctl00_MainContent_btnDelete']")).click();
             }
         }
-        Thread.sleep(1000);
-        driver.findElement(By.xpath("//input[@id='ctl00_MainContent_btnDelete']")).click();
+
+          /*
+        String xpath="//td[.='"+name+"']/..//td";
+        //td[.='Paul Brown']/..//td
+        driver.findElement(By.xpath(xpath)).click();
+        driver.findElement(By.xpath("//input[@name='ctl00$MainContent$btnDelete']")).click();
+
          */
 
 

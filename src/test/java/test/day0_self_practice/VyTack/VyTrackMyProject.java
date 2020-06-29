@@ -8,62 +8,68 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import test.utilities.VyTrackUtilities;
 import test.utilities.WebDriverFactory;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-// this is Aylin project
 public class VyTrackMyProject {
     // this is instance variable.
     WebDriver driver;
     // this method we need to setup the browser
+
     @BeforeMethod
-    public void setup() {
+    public void setUp() {
+
         driver = WebDriverFactory.getDriver("chrome");
-        driver.get("https://qa2.vytrack.com/user/login");
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
     }
     //this method we need to close the browser
     @AfterMethod
-    public void tearDown() {
-      //  driver.close();
+    public void tearDown() throws InterruptedException {
+      Thread.sleep(8000);
+        driver.close();
     }
 
-    @Test
-    public void logIn() {
-        //Log IN to system
-
-        driver.findElement(By.xpath("//input[@type='text']")).sendKeys("user154" + Keys.ENTER);
-        driver.findElement(By.xpath("//input[@type='password']")).sendKeys("UserUser123" + Keys.ENTER);
-    }
     @Test
     public void VehicleOdometerButton() throws InterruptedException {
-        // TC #1 Verify that truck driver should be able to see all the Vehicle Odometer information
+       // TC #1 Verify that truck driver should be able to see all the Vehicle Odometer information
+
+        driver.get("https://qa2.vytrack.com/user/login");
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+
+        VyTrackUtilities.login(driver);
 
         // 1. Click the Fleet button
-    driver.findElement(By.xpath("//span[@class='title title-level-1'][contains(text(),'Fleet')]")).click();
-    Thread.sleep(1500);
-
-        // 2. Click Vehicle Odometer button
-    driver.findElement(By.xpath("//span[contains(text(),'Vehicle Odometer')]")).click();
-
-        // 3. Verify that driver in the Vehicle Odometer page
+        driver.findElement(By.xpath("//*[@id='main-menu']/ul/li[1]/a")).click();
         Thread.sleep(1500);
-        String VehicleOdometerPageTitle="Vehicle Odometer - Entities - System - Car - Entities - System";
-        Assert.assertTrue(driver.getTitle().contains(VehicleOdometerPageTitle));
+
+        //2. Click "Vehicle odometer" in the Fleet menu bar
+        driver.findElement(By.xpath())
 
         //3.Verify that driver able to see in the Vehicle Odometer page Fleet, Customer,Activities,System modules
         List<WebElement> ActualList = driver.findElements(By.xpath("//ul[@class='nav-multilevel main-menu']/li"));
         String[] VehicleOdometerPage = {"Fleet", "Customers", "Activities", "System"};
         for (int i = 0; i < VehicleOdometerPage.length; i++) {
-            System.out.println(ActualList.get(i).getText().equals(VehicleOdometerPage[i]));
+            System.out.println(ActualList.get(i).getText());
             Assert.assertTrue(ActualList.get(i).getText().equals(VehicleOdometerPage[i]));
         }
+        //4 Verify that truck driver should be able to see all vehicle odometer information on the grid
+      //  List<WebElement> vehicle_odometer_information_grid=driver.findElements(By.xpath("//*[@id=\"grid-custom-entity-grid-1357786128\"]/div[2]/div[2]/div[2]/div/table/thead[2]/tr"));
+
+        //vehicle_odometer_information_grid.forEach(gridElements-> System.out.println("gridElements = " + gridElements));
+
+       // for (WebElement list: vehicle_odometer_information_grid) {
+          //  list.getText();
+        //}
+        ;
+
+
+
         //Click "Create Vehicle odometer"
-        String CreateVehicleOdometer= driver.findElement(By.xpath("//a[@title='Create Vehicle Odometer']")).getText();
-        Assert.assertTrue(CreateVehicleOdometer.contains("Create Vehicle Odometer"));
+        //String CreateVehicleOdometer= driver.findElement(By.xpath("//a[@title='Create Vehicle Odometer']")).getText();
+        //Assert.assertTrue(CreateVehicleOdometer.contains("Create Vehicle Odometer"));
 
 
 

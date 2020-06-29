@@ -18,7 +18,7 @@ public class CybertekReservationRoom {
         driver.get("https://cybertek-reservation-qa3.herokuapp.com/");
         driver.manage().window().maximize();
     }
-@Ignore
+
     @Test (priority = 1)
     public void credential(){
         driver.findElement(By.name("email")).sendKeys("bbursnoll8d@acquirethisname.com");

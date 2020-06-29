@@ -13,7 +13,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.concurrent.TimeUnit;
 
-public class TC8_Cybertek_ {
+public class TC8_Cybertek_Select_month_dropdown {
 
     WebDriver driver;
     DateTimeFormatter monthFormatter=DateTimeFormatter.ofPattern("MMMM");

@@ -15,7 +15,7 @@ import test.utilities.WebDriverFactory;
 
 import java.util.concurrent.TimeUnit;
 
-public class TC6_Cybertek_ {
+public class TC6_Cybertek_fillingWithFakers {
 
 
     WebDriver driver;

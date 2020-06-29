@@ -19,7 +19,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class TC7_Cybertek_ {
+public class TC7_Cybertek_dorpdown_Month {
 
     WebDriver driver;
     DateTimeFormatter monthFormatter=DateTimeFormatter.ofPattern("MMMM");
@@ -38,6 +38,7 @@ public class TC7_Cybertek_ {
         Thread.sleep(5000);
         driver.close();
     }
+
     @Test
         public void registartionForm() throws InterruptedException {
         // 2.Go to website: http://practice.cybertekschool.com/dropdowns
