@@ -29,19 +29,13 @@ public class AlertsPractices {
     public void p1_information_alert_test(){
         //Locating the alert button to be able to click.
         WebElement infoAlertButton = driver.findElement(By.xpath("//button[.='Click for JS Alert']"));
-
         //Clicking to the alert button so that the alert should pop-up
         infoAlertButton.click();
-
         //1- Create the Alert instance and switch to it
         Alert alert = driver.switchTo().alert();
-
         //2- Use "alert" to accept the alert.
         alert.accept();
-
-
         WebElement resultText=driver.findElement(By.xpath("p[id='result']"));
-
         Assert.assertTrue(resultText.isDisplayed());
 
     }

@@ -7,8 +7,13 @@ public class java_faker {
     @Test
     public void faker_test(){
 
+
         Faker faker = new Faker();
 
+
+        long number = faker.number().randomDigit();
+        System.out.println("number = " + number);
+        /*
         String name = faker.name().fullName(); // Miss Samanta Schmidt
         System.out.println("name = " + name);
         String firstName = faker.name().firstName(); // Emory
@@ -21,7 +26,7 @@ public class java_faker {
         System.out.println("chuckNorris = " + chuckNorris);
         String Shakespeare=faker.shakespeare().hamletQuote();
         System.out.println("Shakespeare = " + Shakespeare);
-
+*/
 
     }
 }

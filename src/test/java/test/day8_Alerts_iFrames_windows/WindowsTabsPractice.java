@@ -38,18 +38,14 @@ public class WindowsTabsPractice {
         System.out.println("currentWindowHandle = " + currentWindowHandle);
         WebElement clickHereLink=driver.findElement(By.xpath("//a[.='Click Here']"));
         clickHereLink.click();
-
-
-        for (String each: driver.getWindowHandles()){
-
+      for (String each: driver.getWindowHandles()){
             driver.switchTo().window(each);
-
             if (driver.getTitle().equals("New Windows")){
                 Assert.assertTrue(driver.getTitle().equals("New Window"));
                 break;
             }
         }
-        driver.switchTo().window(currentWindowHandle);
+       driver.switchTo().window(currentWindowHandle);
         System.out.println(driver.getTitle());
 
 

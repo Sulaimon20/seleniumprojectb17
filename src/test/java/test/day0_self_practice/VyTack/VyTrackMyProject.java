@@ -1,64 +1,143 @@
 package test.day0_self_practice.VyTack;
 
+import com.github.javafaker.Faker;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import test.utilities.ConfigurationReader;
+import test.utilities.Driver;
 import test.utilities.VyTrackUtilities;
 import test.utilities.WebDriverFactory;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class VyTrackMyProject {
-    // this is instance variable.
-    WebDriver driver;
-    // this method we need to setup the browser
 
-    @BeforeMethod
-    public void setUp() {
-
-        driver = WebDriverFactory.getDriver("chrome");
-    }
-    //this method we need to close the browser
-    @AfterMethod
-    public void tearDown() throws InterruptedException {
-      Thread.sleep(8000);
-        driver.close();
-    }
 
     @Test
-    public void VehicleOdometerButton() throws InterruptedException {
-       // TC #1 Verify that truck driver should be able to see all the Vehicle Odometer information
+    public void credentials() throws InterruptedException {
+        Driver.getDriver().get("https://qa2.vytrack.com/user/login");
+        Driver.getDriver().manage().window().maximize();
+        Driver.getDriver().manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        WebElement username = Driver.getDriver().findElement(By.xpath("//input[@type='text']"));
+        username.sendKeys(ConfigurationReader.getProperty("username"));
+        WebElement password = Driver.getDriver().findElement(By.xpath("//input[@type='password']"));
+        password.sendKeys(ConfigurationReader.getProperty("password")+ Keys.ENTER);
+        Thread.sleep(1500);
 
-        driver.get("https://qa2.vytrack.com/user/login");
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        //1. Click the "Fleet" button
+        Actions actions=new Actions(Driver.getDriver());
+        actions.click(Driver.getDriver().findElement(By.xpath("//*[@id='main-menu']/ul/li[1]/a"))).perform();
+        //2. Click "Vehicle odometer" in the Fleet menu bar
+        actions.click(Driver.getDriver().findElement(By.xpath("//*[@id='main-menu']/ul/li[1]/div/div/ul/li[4]/a/span"))).perform();
+        //3.Verify that user on the "Vehicle odometer" page
+        Thread.sleep(1000);
+        Assert.assertTrue(Driver.getDriver().getTitle().contains("Vehicle Odometer"));
+        Thread.sleep(1500);
+        //2.Verify that Truck driver should be able to create Vehicle odometer or cancel it. 
+        Thread.sleep(1500);
+        //1. Click "Create Vehicle odometer" button.
+        WebElement create_Vehicle_odometer_button = Driver.getDriver().findElement(By.xpath("//a[@title='Create Vehicle Odometer']"));
+        create_Vehicle_odometer_button.click();
 
-        VyTrackUtilities.login(driver);
+        //2. Fill the Odometer Value box with random value
 
+        Thread.sleep(1500);
+
+        WebElement OdometerValue = Driver.getDriver().findElement(By.xpath("//input[@name='custom_entity_type[OdometerValue]']"));
+
+        OdometerValue.sendKeys(ConfigurationReader.getProperty("odometerValue"));
+
+        Thread.sleep(1000);
+        //3. Choose the date of creating
+
+        WebElement date = Driver.getDriver().findElement(By.xpath("//input[@placeholder='Choose a date']"));
+        date.click();
+
+        //WebElement day=Driver.getDriver().findElement(By.xpath("//td/a[@class='ui-state-default'][1]"));
+        //date.click();
+        //System.out.println("day.getText() = " + day.getText());
+
+        Driver.getDriver().findElement(By.xpath("//tr[1]/td[6]/a")).click();
+        Thread.sleep(3000);
+
+        //4. Write the driver name
+        //WebElement driverName=Driver.getDriver().findElement(By.xpath(""))
+        //5. Chose miles/km
+
+        //6. Choose the car model
+
+        //7. Click the "+Add" button and add Lisence plate
+
+        //8. Click on Lisence plate number
+
+        //9. Verify that the info is added
+
+        //10. Once you created Vehicle odometer Click "CANCEL" button on the page.
+
+        //11. Verify that after canceling user should be in the Vehical odometer page
+
+
+
+
+
+
+
+
+    }
+    public void Vehicle_odometer_page() throws InterruptedException {
+
+
+
+    }
+}
+
+
+/*
         // 1. Click the Fleet button
         driver.findElement(By.xpath("//*[@id='main-menu']/ul/li[1]/a")).click();
         Thread.sleep(1500);
-
         //2. Click "Vehicle odometer" in the Fleet menu bar
-        driver.findElement(By.xpath())
+        //driver.findElement(By.xpath())
+        driver.findElement(By.xpath("//*[@id=\"main-menu\"]/ul/li[1]/div/div/ul/li[4]/a/span")).click();
 
         //3.Verify that driver able to see in the Vehicle Odometer page Fleet, Customer,Activities,System modules
         List<WebElement> ActualList = driver.findElements(By.xpath("//ul[@class='nav-multilevel main-menu']/li"));
-        String[] VehicleOdometerPage = {"Fleet", "Customers", "Activities", "System"};
-        for (int i = 0; i < VehicleOdometerPage.length; i++) {
-            System.out.println(ActualList.get(i).getText());
-            Assert.assertTrue(ActualList.get(i).getText().equals(VehicleOdometerPage[i]));
-        }
-        //4 Verify that truck driver should be able to see all vehicle odometer information on the grid
-      //  List<WebElement> vehicle_odometer_information_grid=driver.findElements(By.xpath("//*[@id=\"grid-custom-entity-grid-1357786128\"]/div[2]/div[2]/div[2]/div/table/thead[2]/tr"));
 
-        //vehicle_odometer_information_grid.forEach(gridElements-> System.out.println("gridElements = " + gridElements));
+        // ActualList.forEach(gridElements-> System.out.println(gridElements.getText())); <== this can give you a list of text
+
+        String[] expectedVehicleOdometer = {"Fleet", "Customers", "Activities", "System"};
+
+        for (int i = 0; i < expectedVehicleOdometer.length; i++) {
+            System.out.println(ActualList.get(i).getText());
+            Assert.assertTrue(ActualList.get(i).getText().equals(expectedVehicleOdometer[i]));
+        }
+
+        //4 Verify that truck driver should be able to see all vehicle odometer information on the grid
+      //  List<WebElement> vehicle_odometer_information_grid=driver.findElements(By.xpath("//table/thead[2]/tr//th"));
+        //vehicle_odometer_information_grid.forEach(gridElements-> System.out.println("gridElements = " + gridElements.getText()));
+
+        //String [] expectedVehicle_odometerTableValue={"Odometer Value", "Date", "Driver", "Unit", "Model"};
+/*
+        for (int i = 0; i < 7; i++) {
+            System.out.println(vehicle_odometer_information_grid.get(i).getText());
+            //Assert.assertTrue(ActualList.get(i).getText().equals(expectedVehicleOdometerPage[i]));
+        }
+*/
+
+        //
+
+        //Assert.assertTrue(vehicle_odometer_information_grid,expectedVehicle_odometerTableValue);
 
        // for (WebElement list: vehicle_odometer_information_grid) {
           //  list.getText();
@@ -129,5 +208,3 @@ public class VyTrackMyProject {
         Assert.assertFalse(element.isSelected());
         */
 
-    }
-}

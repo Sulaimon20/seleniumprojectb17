@@ -61,12 +61,8 @@ public class SmartBearUtilities {
         //because we can use the int i index number to get both names and cities values
 
         for (int i = 0; i < namesList.size(); i++) {
-
             System.out.println("Name: " + namesList.get(i).getText() + ", Cities: " + citiesList.get(i).getText());
-
         }
-
-
     }
     //TC #11: Create a method called removeName()
     // 1.Accepts two parameters: WebDriver, String name
