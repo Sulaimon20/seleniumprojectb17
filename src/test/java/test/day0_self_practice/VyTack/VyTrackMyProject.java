@@ -72,11 +72,14 @@ public class VyTrackMyProject {
         Thread.sleep(3000);
 
         //4. Write the driver name
-        //WebElement driverName=Driver.getDriver().findElement(By.xpath(""))
+        WebElement driverName=Driver.getDriver().findElement(By.xpath("//div[@class='control-group control-group-text']//following::input[1]"));
+        driverName.sendKeys(ConfigurationReader.getProperty("driverName"));
         //5. Chose miles/km
-
+        WebElement UnitOfDistance=Driver.getDriver().findElement(By.xpath("//option[@value='miles'']"));
+        UnitOfDistance.click();
         //6. Choose the car model
-
+        WebElement carModel=Driver.getDriver().findElement(By.xpath("//span[@class='select2-chosen' and @xpath='1']"));
+        carModel.click();
         //7. Click the "+Add" button and add Lisence plate
 
         //8. Click on Lisence plate number

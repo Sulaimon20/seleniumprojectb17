@@ -79,6 +79,7 @@ public class Dropdowns_Intro {
         //5. Select California
         //Selecting using selectByIndex(); method --> Expects us to pass the index number of the option.
         Thread.sleep(1000);
+
         stateDropdown.selectByIndex(5);
         //6. Verify final selected option is California.
         String expectedOption = "California";
