@@ -20,12 +20,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d542e397-f2a0-4b71-8707-5efefe2b5a9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day6_testNG_dropdowns/DropdownSelectDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/utilities/chromeBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HoversPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Loading1Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Loading7Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/day11_Page_Object_Model/ActionsPractices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/day11_Page_Object_Model/ActionsPracticesWithPageObj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/day11_Page_Object_Model/NegativeLoginTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/day11_Page_Object_Model/PositiveLoginTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/day11_Page_Object_Model/TC_35_Vytrack_forgot_password_page_verifications.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/day11_Page_Object_Model/TC_36_Vytrack_forgot_password_pageverification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/day12_Synchronization/ExplicitWaitPracticies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/day12_Synchronization/Loading1PageClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day0_self_practice/VyTack/VyTrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day0_self_practice/VyTack/VyTrack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/day0_self_practice/VyTack/VyTrackMyProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day0_self_practice/VyTack/VyTrackMyProject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/day6_testNG_dropdowns/Dropdowns_Intro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day6_testNG_dropdowns/Dropdowns_Intro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/Action_practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day10_JSExecutor_Upload_Actions/Action_practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/TC16_Double_Click_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day10_JSExecutor_Upload_Actions/TC16_Double_Click_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/TC16_Hover_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day10_JSExecutor_Upload_Actions/TC18_Hover_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/TC17_Context_Click.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day10_JSExecutor_Upload_Actions/TC17_Context_Click.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/Uploading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day10_JSExecutor_Upload_Actions/Uploading_file_from_PC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/javaScriptExecutorPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day10_JSExecutor_Upload_Actions/javaScriptExecutorPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/testChromeHeadlees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day10_JSExecutor_Upload_Actions/testChromeHeadlees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day2_findElement_getText_getAttributes/P1_EtsyTitleVerification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day2_FindElement_getText_getAttributes/P1_EtsyTitleVerification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day2_findElement_getText_getAttributes/P3_LinkTextLocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day2_FindElement_getText_getAttributes/P3_LinkTextLocator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day2_findElement_getText_getAttributes/P4_GetText_VS_GetAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day2_FindElement_getText_getAttributes/P4_GetText_VS_GetAttribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day2_findElement_getText_getAttributes/googleSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day2_FindElement_getText_getAttributes/googleSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day2_findElement_getText_getAttributes/loginAuthentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day2_FindElement_getText_getAttributes/loginAuthentication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day2_findElement_getText_getAttributes/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day2_FindElement_getText_getAttributes/test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day4_findElements/ForgotPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day4_FindElements/ForgotPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day4_findElements/P02_Apple_FindElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day4_FindElements/P02_Apple_FindElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day4_findElements/P03_Apple_FindElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day4_FindElements/P03_Apple_FindElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day4_findElements/P04_Cybertek_Checkboxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day4_FindElements/P04_Cybertek_Checkboxes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day4_findElements/P05_SeleniumEasy_Checkbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day4_FindElements/P05_SeleniumEasy_Checkbox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day4_findElements/PO1_MerriamWebster_FindElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day4_FindElements/PO1_MerriamWebster_FindElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day4_findElements/xPath_Practices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day4_FindElements/xPath_Practices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day5_testNg_intro/FirstTestNGClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day5_TestNg_intro/FirstTestNGClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day6_testNG_dropdowns/DropdownSelectDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day6_TestNG_dropdowns/DropdownSelectDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day6_testNG_dropdowns/Dropdowns_Intro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day6_TestNG_dropdowns/Dropdowns_Intro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day6_testNG_dropdowns/TC2_select_State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day6_TestNG_dropdowns/TC2_select_State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day6_testNG_dropdowns/TC3_SelectingDateOnDropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day6_TestNG_dropdowns/TC3_SelectingDateOnDropDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day6_testNG_dropdowns/TC4selectMultipleDrapdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day6_TestNG_dropdowns/TC4selectMultipleDrapdown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day6_testNG_dropdowns/TC5_selectValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day6_TestNG_dropdowns/TC5_selectValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day6_testNG_dropdowns/TestNGPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day6_TestNG_dropdowns/TestNGPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day6_testNG_dropdowns/TestNGSeleniumPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day6_TestNG_dropdowns/TestNGSeleniumPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day6_testNG_dropdowns/selectDatePractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day6_TestNG_dropdowns/selectDatePractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day7_javafaker_webtables/SmartBearTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day7_JavaFaker_WebTables/SmartBearTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day7_javafaker_webtables/TC6_Cybertek_fillingWithFakers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day7_JavaFaker_WebTables/TC6_Cybertek_fillingWithFakers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day7_javafaker_webtables/TC7_Cybertek_dorpdown_Month.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day7_JavaFaker_WebTables/TC7_Cybertek_dorpdown_Month.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day7_javafaker_webtables/TC8_Cybertek_Select_month_dropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day7_JavaFaker_WebTables/TC8_Cybertek_Select_month_dropdown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day7_javafaker_webtables/java_faker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day7_JavaFaker_WebTables/java_faker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day7_javafaker_webtables/listOfAllOrders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day7_JavaFaker_WebTables/listOfAllOrders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day7_javafaker_webtables/miniTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day7_JavaFaker_WebTables/miniTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day9_testbase_properties_driverUtil/DriverUtilsPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day9_Testbase_Properties_driverUtil/DriverUtilsPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day9_testbase_properties_driverUtil/LearningPropeties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day9_Testbase_Properties_driverUtil/LearningPropeties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day9_testbase_properties_driverUtil/ReadingFromProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day9_Testbase_Properties_driverUtil/ReadingFromProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day9_testbase_properties_driverUtil/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day9_Testbase_Properties_driverUtil/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day9_testbase_properties_driverUtil/WindowHandlePractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day9_Testbase_Properties_driverUtil/WindowHandlePractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/day2_findElement_getText_getAttributes/P1_EtsyTitleVerification.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/day2_findElement_getText_getAttributes/P1_EtsyTitleVerification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/day2_findElement_getText_getAttributes/P3_LinkTextLocator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/day2_findElement_getText_getAttributes/P3_LinkTextLocator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/day2_findElement_getText_getAttributes/P4_GetText_VS_GetAttribute.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/day2_findElement_getText_getAttributes/P4_GetText_VS_GetAttribute.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/day2_findElement_getText_getAttributes/googleSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/day2_findElement_getText_getAttributes/googleSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/day2_findElement_getText_getAttributes/loginAuthentication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/day2_findElement_getText_getAttributes/loginAuthentication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/day2_findElement_getText_getAttributes/test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/day2_findElement_getText_getAttributes/test1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +96,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -53,9 +115,10 @@
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
@@ -70,17 +133,53 @@
       <recent name="C:\Users\Acer\IdeaProjects\seleniumprojectb17" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.VyTrackMyProject.credentials">
-    <configuration name="TC8_Cybertek_Select_month_dropdown" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.VyTrackMyProject">
+    <configuration name="ExplicitWaitPracticies.TC40_dynamic_title_test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumprojectb17" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.day7_javafaker_webtables.*" />
+          <option name="PATTERN" value="test.day12_Synchronization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.day7_javafaker_webtables" />
-      <option name="MAIN_CLASS_NAME" value="test.day7_javafaker_webtables.TC8_Cybertek_Select_month_dropdown" />
+      <option name="PACKAGE_NAME" value="test.day12_Synchronization" />
+      <option name="MAIN_CLASS_NAME" value="test.day12_Synchronization.ExplicitWaitPracticies" />
+      <option name="METHOD_NAME" value="TC40_dynamic_title_test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Loading1PageClass.Loading1Page" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumprojectb17" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.day12_Synchronization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.day12_Synchronization" />
+      <option name="MAIN_CLASS_NAME" value="test.day12_Synchronization.Loading1PageClass" />
+      <option name="METHOD_NAME" value="Loading1Page" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_36_Vytrack_forgot_password_pageverification" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumprojectb17" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.day11_Page_Object_Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.day11_Page_Object_Model" />
+      <option name="MAIN_CLASS_NAME" value="test.day11_Page_Object_Model.TC_36_Vytrack_forgot_password_pageverification" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -88,17 +187,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC8_Cybertek_Select_month_dropdown.registartionForm" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC_36_Vytrack_forgot_password_pageverification.forgot_password_page_verifications_with_errorMessage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumprojectb17" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.day7_javafaker_webtables.*" />
+          <option name="PATTERN" value="test.day11_Page_Object_Model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.day7_javafaker_webtables" />
-      <option name="MAIN_CLASS_NAME" value="test.day7_javafaker_webtables.TC8_Cybertek_Select_month_dropdown" />
-      <option name="METHOD_NAME" value="registartionForm" />
+      <option name="PACKAGE_NAME" value="test.day11_Page_Object_Model" />
+      <option name="MAIN_CLASS_NAME" value="test.day11_Page_Object_Model.TC_36_Vytrack_forgot_password_pageverification" />
+      <option name="METHOD_NAME" value="forgot_password_page_verifications_with_errorMessage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -123,49 +222,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VyTrackMyProject.credentials" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="seleniumprojectb17" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.day0_self_practice.VyTack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.day0_self_practice.VyTack" />
-      <option name="MAIN_CLASS_NAME" value="test.day0_self_practice.VyTack.VyTrackMyProject" />
-      <option name="METHOD_NAME" value="credentials" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="java_faker.faker_test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="seleniumprojectb17" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.day7_javafaker_webtables.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.day7_javafaker_webtables" />
-      <option name="MAIN_CLASS_NAME" value="test.day7_javafaker_webtables.java_faker" />
-      <option name="METHOD_NAME" value="faker_test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.VyTrackMyProject.credentials" />
         <item itemvalue="TestNG.VyTrackMyProject" />
-        <item itemvalue="TestNG.TC8_Cybertek_Select_month_dropdown.registartionForm" />
-        <item itemvalue="TestNG.TC8_Cybertek_Select_month_dropdown" />
-        <item itemvalue="TestNG.java_faker.faker_test" />
+        <item itemvalue="TestNG.Loading1PageClass.Loading1Page" />
+        <item itemvalue="TestNG.ExplicitWaitPracticies.TC40_dynamic_title_test" />
+        <item itemvalue="TestNG.TC_36_Vytrack_forgot_password_pageverification.forgot_password_page_verifications_with_errorMessage" />
+        <item itemvalue="TestNG.TC_36_Vytrack_forgot_password_pageverification" />
       </list>
     </recent_temporary>
   </component>
@@ -187,13 +250,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />
@@ -211,12 +273,12 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2610" y="298" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1097.617/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591969684021" />
-    <state x="130" y="124" width="1276" height="576" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1593789576684">
+    <state x="180" y="429" width="1276" height="576" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1594080712003">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="911" height="431" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1097.617/1920.0.1920.1080@0.0.1097.617" timestamp="1592591300625" />
     <state x="130" y="124" width="1276" height="576" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1593789576684" />
-    <state x="130" y="124" width="1276" height="576" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1593139103004" />
+    <state x="180" y="429" width="1276" height="576" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1594080712003" />
     <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1593647060942">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -233,80 +295,81 @@
       <screen x="0" y="0" width="1097" height="617" />
     </state>
     <state x="257" y="0" key="CommitChangelistDialog2/0.0.1097.617@0.0.1097.617" timestamp="1592731320773" />
-    <state x="329" y="67" key="FileChooserDialogImpl" timestamp="1591061463568">
-      <screen x="0" y="0" width="1097" height="617" />
+    <state x="461" y="89" key="FileChooserDialogImpl" timestamp="1594298389826">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="329" y="67" key="FileChooserDialogImpl/0.0.1097.617@0.0.1097.617" timestamp="1591061463568" />
-    <state width="1054" height="193" key="GridCell.Tab.0.bottom" timestamp="1594035403349">
-      <screen x="0" y="0" width="1097" height="617" />
+    <state x="461" y="89" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1594298389826" />
+    <state width="1493" height="102" key="GridCell.Tab.0.bottom" timestamp="1594231623119">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1054" height="268" key="GridCell.Tab.0.bottom/0.0.1097.617/1920.0.1920.1080@0.0.1097.617" timestamp="1592666066713" />
     <state width="1037" height="180" key="GridCell.Tab.0.bottom/0.0.1097.617/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592344229668" />
     <state width="1054" height="193" key="GridCell.Tab.0.bottom/0.0.1097.617@0.0.1097.617" timestamp="1594035403349" />
-    <state width="1493" height="265" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1593816836186" />
-    <state width="1493" height="265" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593831495328" />
-    <state width="1054" height="193" key="GridCell.Tab.0.center" timestamp="1594035403349">
-      <screen x="0" y="0" width="1097" height="617" />
+    <state width="1493" height="102" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1594231623119" />
+    <state width="1493" height="293" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594080711923" />
+    <state width="1493" height="102" key="GridCell.Tab.0.center" timestamp="1594231623119">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1054" height="268" key="GridCell.Tab.0.center/0.0.1097.617/1920.0.1920.1080@0.0.1097.617" timestamp="1592666066712" />
     <state width="1037" height="180" key="GridCell.Tab.0.center/0.0.1097.617/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592344229668" />
     <state width="1054" height="193" key="GridCell.Tab.0.center/0.0.1097.617@0.0.1097.617" timestamp="1594035403349" />
-    <state width="1493" height="265" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1593816836185" />
-    <state width="1493" height="265" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593831495328" />
-    <state width="1054" height="193" key="GridCell.Tab.0.left" timestamp="1594035403346">
-      <screen x="0" y="0" width="1097" height="617" />
+    <state width="1493" height="102" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1594231623119" />
+    <state width="1493" height="293" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594080711923" />
+    <state width="1493" height="102" key="GridCell.Tab.0.left" timestamp="1594231623119">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1054" height="268" key="GridCell.Tab.0.left/0.0.1097.617/1920.0.1920.1080@0.0.1097.617" timestamp="1592666066712" />
     <state width="1037" height="180" key="GridCell.Tab.0.left/0.0.1097.617/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592344229668" />
     <state width="1054" height="193" key="GridCell.Tab.0.left/0.0.1097.617@0.0.1097.617" timestamp="1594035403346" />
-    <state width="1493" height="265" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1593816836185" />
-    <state width="1493" height="265" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593831495328" />
-    <state width="1054" height="193" key="GridCell.Tab.0.right" timestamp="1594035403349">
-      <screen x="0" y="0" width="1097" height="617" />
+    <state width="1493" height="102" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1594231623119" />
+    <state width="1493" height="293" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594080711923" />
+    <state width="1493" height="102" key="GridCell.Tab.0.right" timestamp="1594231623119">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1054" height="268" key="GridCell.Tab.0.right/0.0.1097.617/1920.0.1920.1080@0.0.1097.617" timestamp="1592666066713" />
     <state width="1037" height="180" key="GridCell.Tab.0.right/0.0.1097.617/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592344229668" />
     <state width="1054" height="193" key="GridCell.Tab.0.right/0.0.1097.617@0.0.1097.617" timestamp="1594035403349" />
-    <state width="1493" height="265" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1593816836186" />
-    <state width="1493" height="265" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593831495328" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1593791423120">
+    <state width="1493" height="102" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1594231623119" />
+    <state width="1493" height="293" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594080711923" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1593834784596">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1054" height="178" key="GridCell.Tab.1.bottom/0.0.1097.617/1920.0.1920.1080@0.0.1097.617" timestamp="1592155196907" />
     <state width="1877" height="363" key="GridCell.Tab.1.bottom/0.0.1097.617/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592089831819" />
     <state width="1054" height="178" key="GridCell.Tab.1.bottom/0.0.1097.617@0.0.1097.617" timestamp="1592094953716" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1593791423120" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593551023344" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1593791423120">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593834784595" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1593834784595">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1054" height="178" key="GridCell.Tab.1.center/0.0.1097.617/1920.0.1920.1080@0.0.1097.617" timestamp="1592155196907" />
     <state width="1877" height="363" key="GridCell.Tab.1.center/0.0.1097.617/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592089831818" />
     <state width="1054" height="178" key="GridCell.Tab.1.center/0.0.1097.617@0.0.1097.617" timestamp="1592094953716" />
     <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1593791423120" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593551023344" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1593791423120">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593834784595" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1593834784595">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1054" height="178" key="GridCell.Tab.1.left/0.0.1097.617/1920.0.1920.1080@0.0.1097.617" timestamp="1592155196907" />
     <state width="1877" height="363" key="GridCell.Tab.1.left/0.0.1097.617/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592089831818" />
     <state width="1054" height="178" key="GridCell.Tab.1.left/0.0.1097.617@0.0.1097.617" timestamp="1592094953715" />
     <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1593791423120" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593551023344" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1593791423120">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593834784595" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1593834784595">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1054" height="178" key="GridCell.Tab.1.right/0.0.1097.617/1920.0.1920.1080@0.0.1097.617" timestamp="1592155196907" />
     <state width="1877" height="363" key="GridCell.Tab.1.right/0.0.1097.617/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592089831819" />
     <state width="1054" height="178" key="GridCell.Tab.1.right/0.0.1097.617@0.0.1097.617" timestamp="1592094953716" />
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1593791423120" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593551023344" />
-    <state x="464" y="0" key="SettingsEditor" timestamp="1593705344157">
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593834784595" />
+    <state x="464" y="0" key="SettingsEditor" timestamp="1594232302646">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="45" y="0" key="SettingsEditor/0.0.1097.617/1920.0.1920.1080@0.0.1097.617" timestamp="1592667269056" />
     <state x="45" y="0" key="SettingsEditor/0.0.1097.617@0.0.1097.617" timestamp="1591061129191" />
-    <state x="464" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1593705344157" />
+    <state x="464" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1594232302646" />
     <state x="464" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593472554526" />
     <state x="228" y="137" key="com.intellij.ide.util.TipDialog" timestamp="1592731058552">
       <screen x="0" y="0" width="1097" height="617" />
@@ -318,10 +381,12 @@
       <screen x="0" y="0" width="1097" height="617" />
     </state>
     <state x="90" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1097.617@0.0.1097.617" timestamp="1592146894104" />
-    <state x="330" y="227" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592731375492">
-      <screen x="0" y="0" width="1097" height="617" />
+    <state x="462" y="303" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594044402218">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="330" y="227" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1097.617@0.0.1097.617" timestamp="1592731375492" />
+    <state x="462" y="303" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1594044402218" />
+    <state x="462" y="303" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1594044140955" />
     <state x="477" y="109" width="581" height="715" key="find.popup" timestamp="1593639569891">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -330,12 +395,16 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1593798124818" />
-    <state x="288" y="180" key="run.anything.popup" timestamp="1593811861530">
+    <state x="209" y="32" key="new project wizard" timestamp="1594394881195">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="32" key="new project wizard/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1594394881195" />
+    <state x="288" y="180" key="run.anything.popup" timestamp="1594079469715">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="206" y="135" key="run.anything.popup/0.0.1097.617/1920.0.1920.1080@0.0.1097.617" timestamp="1592577809799" />
-    <state x="288" y="180" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1593811861530" />
-    <state x="288" y="180" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1593292552391" />
+    <state x="288" y="180" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1594060440974" />
+    <state x="288" y="180" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1594079469715" />
     <state x="496" y="179" width="941" height="519" key="search.everywhere.popup" timestamp="1593830952540">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -348,7 +417,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/test/day2_findElement_getText_getAttributes/loginAuthentication.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/test/day2_FindElement_getText_getAttributes/loginAuthentication.java</url>
           <line>27</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -358,27 +427,27 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/test/day4_findElements/P03_Apple_FindElements.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/test/day4_FindElements/P03_Apple_FindElements.java</url>
           <line>25</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/Action_practice.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/test/day10_JSExecutor_Upload_Actions/Action_practice.java</url>
           <line>11</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/test/day9_testbase_properties_driverUtil/DriverUtilsPractice.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/test/day9_Testbase_Properties_driverUtil/DriverUtilsPractice.java</url>
           <line>12</line>
-          <properties class="test.day9_testbase_properties_driverUtil.DriverUtilsPractice" method="driver_practice">
+          <properties class="test.day9_Testbase_Properties_driverUtil.DriverUtilsPractice" method="driver_practice">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/Action_practice.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/test/day10_JSExecutor_Upload_Actions/Action_practice.java</url>
           <line>14</line>
-          <properties class="test.day10_jsexecutor_upload_actions.Action_practice" method="hover_over_test1">
+          <properties class="test.day10_JSExecutor_Upload_Actions.Action_practice" method="hover_over_test1">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="8" />
@@ -387,9 +456,9 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/seleniumprojectb17$_default_.ic" NAME="&lt;default&gt; Coverage Results" MODIFIED="1593638352365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/seleniumprojectb17$FirstTestNGClass.ic" NAME="FirstTestNGClass Coverage Results" MODIFIED="1592339791298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.day5_testNg_intro.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/seleniumprojectb17$_default_.ic" NAME="&lt;default&gt; Coverage Results" MODIFIED="1593638352365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

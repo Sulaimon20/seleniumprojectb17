@@ -8,9 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import test.utilities.ConfigurationReader;
 import test.utilities.Driver;
 import test.utilities.VyTrackUtilities;
@@ -22,28 +20,44 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class VyTrackMyProject {
+    WebDriver driver=Driver.getDriver();
+    Actions actions;
 
+    @BeforeMethod
+    public void setUp_and_credentials() throws InterruptedException {
+        driver.get("https://app.vytrack.com/user/login");
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+
+        WebElement username = driver.findElement(By.xpath("//input[@type='text']"));
+        username.sendKeys(ConfigurationReader.getProperty("username"));
+        WebElement password = driver.findElement(By.xpath("//input[@type='password']"));
+        password.sendKeys(ConfigurationReader.getProperty("password") + Keys.ENTER);
+        Thread.sleep(1500);
+    }
 
     @Test
-    public void credentials() throws InterruptedException {
-        Driver.getDriver().get("https://qa2.vytrack.com/user/login");
-        Driver.getDriver().manage().window().maximize();
-        Driver.getDriver().manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-        WebElement username = Driver.getDriver().findElement(By.xpath("//input[@type='text']"));
-        username.sendKeys(ConfigurationReader.getProperty("username"));
-        WebElement password = Driver.getDriver().findElement(By.xpath("//input[@type='password']"));
-        password.sendKeys(ConfigurationReader.getProperty("password")+ Keys.ENTER);
-        Thread.sleep(1500);
+    public void TC1_FleetButton_Verification() throws InterruptedException {
+    //1. Verify that truck driver should be able to see all vehicle odometer information on the grid
 
-        //1. Click the "Fleet" button
-        Actions actions=new Actions(Driver.getDriver());
-        actions.click(Driver.getDriver().findElement(By.xpath("//*[@id='main-menu']/ul/li[1]/a"))).perform();
-        //2. Click "Vehicle odometer" in the Fleet menu bar
-        actions.click(Driver.getDriver().findElement(By.xpath("//*[@id='main-menu']/ul/li[1]/div/div/ul/li[4]/a/span"))).perform();
-        //3.Verify that user on the "Vehicle odometer" page
-        Thread.sleep(1000);
-        Assert.assertTrue(Driver.getDriver().getTitle().contains("Vehicle Odometer"));
-        Thread.sleep(1500);
+        //Step 1. Click the "Fleet" button
+    actions = new Actions(driver);
+    actions.click(driver.findElement(By.xpath("//*[@id='main-menu']/ul/li[1]/a"))).perform();
+
+    //Step 2. Click "Vehicle odometer" in the Fleet menu bar
+    actions.click(driver.findElement(By.xpath("//*[@id='main-menu']/ul/li[1]/div/div/ul/li[4]/a/span"))).perform();
+
+    //Step 3.Verify that user on the "Vehicle odometer" page
+    Thread.sleep(1000);
+    Assert.assertTrue(driver.getTitle().contains("Vehicle Odometer"),"User is not able to be on Vehicle odometer page");
+
+    Thread.sleep(1500);
+}
+
+
+    //@Test
+    public void TC2_User_create_cancel_Vehicle_odometer() throws InterruptedException {
+
         //2.Verify that Truck driver should be able to create Vehicle odometer or cancel it. 
         Thread.sleep(1500);
         //1. Click "Create Vehicle odometer" button.
@@ -72,13 +86,13 @@ public class VyTrackMyProject {
         Thread.sleep(3000);
 
         //4. Write the driver name
-        WebElement driverName=Driver.getDriver().findElement(By.xpath("//div[@class='control-group control-group-text']//following::input[1]"));
+        WebElement driverName = Driver.getDriver().findElement(By.xpath("//div[@class='control-group control-group-text']//following::input[1]"));
         driverName.sendKeys(ConfigurationReader.getProperty("driverName"));
         //5. Chose miles/km
-        WebElement UnitOfDistance=Driver.getDriver().findElement(By.xpath("//option[@value='miles'']"));
+        WebElement UnitOfDistance = Driver.getDriver().findElement(By.xpath("//option[@value='miles'']"));
         UnitOfDistance.click();
         //6. Choose the car model
-        WebElement carModel=Driver.getDriver().findElement(By.xpath("//span[@class='select2-chosen' and @xpath='1']"));
+        WebElement carModel = Driver.getDriver().findElement(By.xpath("//span[@class='select2-chosen' and @xpath='1']"));
         carModel.click();
         //7. Click the "+Add" button and add Lisence plate
 
@@ -91,20 +105,9 @@ public class VyTrackMyProject {
         //11. Verify that after canceling user should be in the Vehical odometer page
 
 
-
-
-
-
-
-
     }
-    public void Vehicle_odometer_page() throws InterruptedException {
 
-
-
-    }
 }
-
 
 /*
         // 1. Click the Fleet button
@@ -145,7 +148,7 @@ public class VyTrackMyProject {
        // for (WebElement list: vehicle_odometer_information_grid) {
           //  list.getText();
         //}
-        ;
+
 
 
 

@@ -89,7 +89,7 @@ public class VyTrack {
         //Click Activities
         Actions action = new Actions(driver);
         action.moveToElement(driver.findElement(By.xpath("//ul[@class='nav-multilevel main-menu']/li[3]/a/span"))).perform();
-        action.moveToElement(driver.findElement(By.xpath("//ul/li[@data-route='oro_calendar_event_index']/a"))).click().build().perform();
+        action.moveToElement(driver.findElement(By.xpath("//ul/li[@data-route='oro_calendar_event_index']/a"))).click().perform();
         Thread.sleep(2000);
         Assert.assertTrue(driver.findElement(By.xpath("//td[@class='string-cell grid-cell grid-body-cell grid-body-cell-name']")).isDisplayed());
         //4.Verify that Truck driver can reset the Grid by click on Grid setting;
