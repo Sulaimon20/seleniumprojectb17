@@ -1,9 +1,6 @@
 package test.day8_Alerts_iFrames_windows;
 
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -48,6 +45,19 @@ public class AlertsPractices {
 
         WebElement result=driver.findElement(By.xpath("//p[@id='result']"));
         Assert.assertTrue(result.getText().contains("Ok"));
+
+    }
+
+    @Test
+    public void p2_prompt_Alert_test() throws InterruptedException {
+        WebElement confirmationButton=driver.findElement(By.xpath("//button[.='Click for JS Prompt']"));
+        confirmationButton.click();
+        Alert alert=driver.switchTo().alert();
+        alert.sendKeys("Hello World"+Keys.ENTER);
+        Thread.sleep(1500);
+
+
+
 
     }
 

@@ -50,6 +50,7 @@ public class Dropdowns_Intro {
         String expectedDefaultOfSimpleDropdown = "Please select an option";
         Assert.assertEquals(actualDefaultOfSimpleDropdown, expectedDefaultOfSimpleDropdown);
         //4. Verify “State selection” default selected value is correct
+
         //Expected: “Select a State”
         Select stateDropdown = new Select(driver.findElement(By.xpath("//select[@id='state']")));
 

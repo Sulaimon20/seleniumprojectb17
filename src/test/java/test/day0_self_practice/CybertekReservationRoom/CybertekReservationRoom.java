@@ -1,4 +1,4 @@
-package test.day0_self_practice;
+package test.day0_self_practice.CybertekReservationRoom;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

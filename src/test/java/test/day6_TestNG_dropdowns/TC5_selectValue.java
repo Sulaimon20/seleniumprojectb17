@@ -34,6 +34,7 @@ public class TC5_selectValue {
     public void selectValue(){
       // driver.findElement(By.xpath("//div[@class='dropdown']")).click();
        driver.findElement(By.xpath("//a[@href='#']")).click();
+
        driver.findElement(By.xpath("//a[@href='https://www.facebook.com/']")).click();
         Assert.assertEquals(driver.getTitle(),"Facebook - Log In or Sign Up");
 

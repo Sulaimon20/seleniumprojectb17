@@ -51,13 +51,6 @@ public class VyTrackMyProject {
     Thread.sleep(1000);
     Assert.assertTrue(driver.getTitle().contains("Vehicle Odometer"),"User is not able to be on Vehicle odometer page");
 
-    Thread.sleep(1500);
-}
-
-
-    //@Test
-    public void TC2_User_create_cancel_Vehicle_odometer() throws InterruptedException {
-
         //2.Verify that Truck driver should be able to create Vehicle odometer or cancel it. 
         Thread.sleep(1500);
         //1. Click "Create Vehicle odometer" button.
@@ -89,25 +82,48 @@ public class VyTrackMyProject {
         WebElement driverName = Driver.getDriver().findElement(By.xpath("//div[@class='control-group control-group-text']//following::input[1]"));
         driverName.sendKeys(ConfigurationReader.getProperty("driverName"));
         //5. Chose miles/km
-        WebElement UnitOfDistance = Driver.getDriver().findElement(By.xpath("//option[@value='miles'']"));
+        WebElement UnitOfDistance = Driver.getDriver().findElement(By.xpath("//option[@value='miles']"));
         UnitOfDistance.click();
         //6. Choose the car model
-        WebElement carModel = Driver.getDriver().findElement(By.xpath("//span[@class='select2-chosen' and @xpath='1']"));
-        carModel.click();
+
+        //BUG!!!
+
+        //WebElement carModel = Driver.getDriver().findElement(By.xpath("//span[@class='select2-chosen' and @xpath='1']"));
+        //carModel.click();
+
         //7. Click the "+Add" button and add Lisence plate
-
+        Thread.sleep(2000);
+        WebElement addButton = Driver.getDriver().findElement(By.xpath("//i[@class='fa-plus']"));
+        addButton.click();
         //8. Click on Lisence plate number
+        String plateNumber=ConfigurationReader.getProperty("plateNumber");
 
+
+
+      //  Actions actions=new Actions(Driver.getDriver());
+       // actions.moveToElement(driver.findElement(By.xpath("//div[@tabindex='-1'")));
+/*
+        List<WebElement> plateNumbers =driver.findElements(By.xpath("//tr[@class='grid-row']"));
+
+        for (int i = 0; i < plateNumbers.size(); i++) {
+            if (plateNumbers.get(i).getText().equals(plateNumber)) {
+                List<WebElement> clickElement = driver.findElements(By.xpath("//tr[@class='grid-row']"));
+                clickElement.get(i).click();
+*/
+            }
+        }
+
+
+        //table[@class='SampleTable']//td[2]
+
+
+        //Select selectPlateNumber=new Select(Driver.getDriver().findElement(By.xpath()))
         //9. Verify that the info is added
 
         //10. Once you created Vehicle odometer Click "CANCEL" button on the page.
 
         //11. Verify that after canceling user should be in the Vehical odometer page
 
-
-    }
-
-}
 
 /*
         // 1. Click the Fleet button
