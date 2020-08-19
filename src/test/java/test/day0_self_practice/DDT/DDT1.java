@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import test.utilities.Driver;
+
 
 
 import java.io.IOException;
@@ -18,14 +18,14 @@ public class DDT1 {
 
     @DataProvider
     public Object[][] getData() throws IOException {
-
+        //we create a path
         String projectPath = System.getProperty("user.dir");
-        String filePath = projectPath + "/src/test/resources/bitrix.xlsx";
+        String filePath = projectPath + "/src/test/resources/bitrixCredentials.xlsx";
 
         XSSFWorkbook workbook = new XSSFWorkbook(filePath);
         XSSFSheet sheet = workbook.getSheet("Sheet1");
 
-        int countRow = sheet.getPhysicalNumberOfRows(); //2
+        int countRow = sheet.getPhysicalNumberOfRows();
         int countColumn = sheet.getRow(0).getPhysicalNumberOfCells();
 
         String[][] data = new String[countRow][countColumn]; // multidimensional String
@@ -35,7 +35,6 @@ public class DDT1 {
                 data[i][j] = sheet.getRow(i).getCell(j).toString();
             }
         }
-
         return data;
     }
 

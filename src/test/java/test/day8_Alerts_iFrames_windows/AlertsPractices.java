@@ -1,6 +1,8 @@
 package test.day8_Alerts_iFrames_windows;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -56,10 +58,10 @@ public class AlertsPractices {
         alert.sendKeys("Hello World"+Keys.ENTER);
         Thread.sleep(1500);
 
-
-
-
     }
+
+
+
 
 
 }

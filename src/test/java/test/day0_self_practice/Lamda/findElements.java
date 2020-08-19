@@ -18,7 +18,8 @@ public class findElements {
         driver.get("https://www.amazon.com");
         List<WebElement> linksList = driver.findElements(By.tagName("a"));
 
-        //linksList.forEach(elements-> System.out.println(elements.getText()));
+        linksList.forEach(elements-> System.out.println(elements.getText()));
+
         List<String> collectList=linksList.
                 stream().
                     filter(element ->!element.getText().equals("")).
