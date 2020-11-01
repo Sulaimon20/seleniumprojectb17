@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 public class SmartBearUtilities {
 
