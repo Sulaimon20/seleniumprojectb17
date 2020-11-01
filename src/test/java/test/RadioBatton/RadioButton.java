@@ -1,4 +1,4 @@
-package test.RadioBatton_CheckedBox;
+package test.RadioBatton;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;

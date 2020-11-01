@@ -1,4 +1,4 @@
-package test.RadioBatton_CheckedBox;
+package test.RadioBatton;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
